@@ -10,7 +10,10 @@
 <body>
     <div class="site-content">
         <div class="img-container">
-            <div class="logo-overlay">IMG LOGO</div>
+            <div class="logo-overlay">
+                <div class="logo">--LOGO--</div>
+                <div>ODIN</div>
+            </div>
             <div class="img-credit-footer">IMG Credits</div>
         </div>
         <div class="info-container">
@@ -22,31 +25,36 @@
             </div>
             <div class="form-container">
                 <form class="sign-up-form" action="/form-handling-page" method="post">
-                    <h1>Let's do this!</h1>
-                    <div>
-                        <label for="first-name">First Name</label>
-                        <input id="first-name" placeholder="Name *" name="first-name" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                    <div class="form-header">
+                        <h1>Let's do this!</h1>
                     </div>
-                    <div>
-                        <label for="last-name">Last Name</label>
-                        <input id="last-name" placeholder="Surname *" name="last-name" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                    <div class="form-input-container">
+                        <div class="form-input">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" placeholder="Name *" name="first-name" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" placeholder="Surname *" name="last-name" type="text" value="" pattern="^[^0-9]+$" size="30" maxlength="245" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="email">Email</label>
+                            <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="phone-number">Phone Number</label>
+                            <input id="phone-number" placeholder="+1 (123)456-7890" name="phone-number" type="tel" value="" size="30" maxlength="20">
+                        </div>
+                        <div class="form-input">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type="password" value="" size="30" maxlength="100" required>
+                        </div>
+                        <div class="form-input">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input id="confirm-password" name="confirm-password" type="password" value="" size="30" maxlength="100" required>
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input id="email" placeholder="Email *" name="email" type="email" value="" size="30" maxlength="100" required>
-                    </div>
-                    <div>
-                        <label for="phone-number">Phone Number</label>
-                        <input id="phone-number" placeholder="+1 (123)456-7890" name="phone-number" type="tel" value="" size="30" maxlength="20">
-                    </div>
-                    <div>
-                        <label for="password">Password</label>
-                        <input id="password" name="password" type="password" value="" size="30" maxlength="100" required>
-                    </div>
-                    <div>
-                        <label for="confirm-password">Confirm Password</label>
-                        <input id="confirm-password" name="confirm-password" type="password" value="" size="30" maxlength="100" required>
-                    </div>
+
 
                 </form>
 
